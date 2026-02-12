@@ -1,0 +1,2 @@
+& 'D:\Programs\nodejs\npm' run build --prefix 'D:\Programs\Trae CN\trae_projects\accounting-voucher-printer'
+& 'D:\Programs\nodejs\npx' gh-pages -d 'D:\Programs\Trae CN\trae_projects\accounting-voucher-printer\dist'
