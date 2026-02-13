@@ -1,0 +1,10 @@
+$schema: https://developers.cloudflare.com/pages/platform/build-configuration
+name: accounting-voucher-printer
+build:
+  command: npm run build
+  output: dist
+  environment:
+    NODE_VERSION: "18"
+routes:
+  - path: /*
+    serve: /index.html

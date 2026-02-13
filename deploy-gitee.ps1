@@ -1,0 +1,2 @@
+& 'D:\Programs\nodejs\npm' run build --prefix 'D:\Programs\Trae CN\trae_projects\accounting-voucher-printer'
+& 'D:\Programs\nodejs\npm' run deploy:gitee --prefix 'D:\Programs\Trae CN\trae_projects\accounting-voucher-printer'

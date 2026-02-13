@@ -5,19 +5,25 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "npx vite build",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "deploy:gitee": "gh-pages -d dist -r https://gitee.com/ayoudeng/accounting-voucher-printer.git"
   },
   "dependencies": {
-    "vue": "^3.5.13",
-    "html2pdf.js": "^0.10.2"
+    "encoding-japanese": "^2.2.0",
+    "gbk.js": "^0.3.0",
+    "html2pdf.js": "^0.10.2",
+    "pdfmake": "^0.2.10",
+    "text-encoding": "^0.7.0",
+    "vue": "^3.5.13"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.2.1",
+    "gh-pages": "^6.2.0",
     "typescript": "~5.6.2",
+    "vercel": "^37.0.0",
     "vite": "^6.0.5",
-    "vue-tsc": "^2.2.2",
-    "gh-pages": "^6.2.0"
+    "vue-tsc": "^2.2.2"
   }
 }
